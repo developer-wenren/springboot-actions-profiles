@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: prod
+server:
+  port: 9000
+---
+spring:
+  profiles: dev
+app:
+  enviroment: dev
+---
+
+spring:
+  profiles: prod
+app:
+  enviroment: prod
+
